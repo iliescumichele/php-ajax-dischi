@@ -2,7 +2,7 @@ const app = new Vue({
     el : "#app",
 
     data: {
-        apiUrl : "",
+        apiUrl : "http://localhost/php-ajax-dischi/php/db/api.php",
         discs: []
     },
 
