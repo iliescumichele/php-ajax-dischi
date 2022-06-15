@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    background-color: #192a39;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    background-color: #2e3a46
+}
+
+select{
+    margin-right: 25px;
+    text-align: center;
+    width: 250px;   
+
+}
+
+    header .logo {
+        height: 100%;
+        margin-left: 25px;
+    }
+
+    header .logo img{
+        height: 90%;
+    }
+
+
+    main{
+        height: calc(100% - 80px);
+    }
+
+    main .card{
+        background-color: #2b3844;
+        height: 400px;
+        width: calc(100% / 6);
+    }
+
+    .card .img-album{
+        height: 45%;
+        width: calc(100% - 10px);
+    }
+
+    .card .img-album img{
+        width: 100%;
+    }       
+
+    .cantante, .anno-album{
+        color: #787574;
+    }
+
+    .album-title{
+        color: white;
+    }
+    
